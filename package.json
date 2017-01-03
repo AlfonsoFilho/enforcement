@@ -2,8 +2,9 @@
   "name": "enforcement",
   "version": "0.0.9",
   "description": "Declarative Object Validation",
-  "main": "index.js",
+  "main": "dist/main.bundle.js",
   "scripts": {
+    "build": "webpack", 
     "test": "mocha test"
   },
   "author": "jsanchesleao@gmail.com",
@@ -11,7 +12,8 @@
   "keywords": "validation validator object schema",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "mocha": "~3.2.0"
+    "mocha": "~3.2.0",
+    "webpack": "^1.14.0"
   },
   "dependencies": {
     "data.either": "^1.2.0"
